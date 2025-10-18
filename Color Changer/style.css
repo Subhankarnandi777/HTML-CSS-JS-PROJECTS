@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  transition: background-color 0.4s ease;
+}
+
+.container {
+  text-align: center;
+  padding-top: 100px;
+}
+
+h1 {
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.button {
+  padding: 12px 24px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Optional: style each button with its own color */
+#grey {
+  background-color: grey;
+  color: white;
+}
+
+#white {
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+}
+
+#blue {
+  background-color: steelblue;
+  color: white;
+}
+
+#yellow {
+  background-color: gold;
+  color: black;
+}
